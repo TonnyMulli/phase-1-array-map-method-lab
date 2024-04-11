@@ -19,7 +19,7 @@ function toTitleCase(str) {
   }).join(' ');
 }
 
-// Function to convert all tutorials to title case
+
 function titleCased() {
   return tutorials.map(toTitleCase);
 }
